@@ -1,0 +1,147 @@
+a{
+  color: #3f72af;
+  }body{
+  margin:0;
+  padding: 0;
+  text-align: center; /* Works on inline and full width blocks */
+  font-family:'Merriweather', serif;
+}
+
+h1{
+  margin: 0 auto 0 auto;
+  padding-top: 100px;
+  font-family: 'Fugaz One', sans-serif;
+  font-size: 5.625rem;
+  color: #ffffff;
+  border-color: #112d4e;
+  text-shadow:
+ -1px -1px 0 #112d4e,
+  2px -2px 0 #112d4e,
+  -3px 3px 0 #112d4e,
+   1px 1px 0 #112d4e;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat',sans-serif;
+  color: #112d4e;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: 'Montserrat',sans-serif;
+  color: #3f72af;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color:#dbe2ef;
+  border-width: 15px;
+  width: 10%
+}
+
+.pic-profile{
+  width: 25%;
+  display: inline-block;
+    border-radius: 100%
+}
+
+.img-computer{
+  border-radius: 100%
+}
+.top-container{
+    background-color: #dbe2ef;
+
+}
+.middle-container{
+  margin-top: 50px;
+}
+.bottom-container{
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #112d4e;
+}
+
+.bottom-cloud{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 10%;
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  width: 10%;
+}
+
+.mountain{
+  margin: 0 auto 0;
+  width: 50%;
+}
+
+.contact-desc{
+  margin-bottom: 50px;
+}
+
+.subheading{
+  font-weight:normal;
+  line-height: 2;
+}
+
+.computer{
+  text-decoration: underline;
+}
+
+.skills, .hobbies, .contact-me{
+  margin: 100px auto 100px auto;
+}
+
+.skill-row, .hobby-row{
+  display:inline-block;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+.skill-row img, .hobby-row img{
+  width: 25%;
+  height: auto;
+}
+
+.img-left{
+  float: left;
+  margin-right: 30px;
+}
+
+.img-right{
+  float: right;
+  margin-left: 30px;  display: inline-block;
+  height: 200px;
+}
+
+.footer-link{
+  color: #3f72af;
+  display: inline-block;
+  margin: 40px;
+}
+
+.butn {
+  -webkit-border-radius: 100;
+  -moz-border-radius: 100;
+  border-radius: 100px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.copyright{
+  color: white;
+}
+
+.butn:hover {
+  background: #112d4e;
+  text-decoration: none;
+}
